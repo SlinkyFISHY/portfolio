@@ -6,7 +6,7 @@ import Waypoint from 'react-waypoint'
 
 import Header from '../components/Header'
 import Nav from '../components/Nav'
-import pic01 from '../assets/images/pic01.jpg'
+import headshot from '../assets/images/headshot.png'
 
 class Index extends React.Component {
   constructor(props) {
@@ -44,93 +44,42 @@ class Index extends React.Component {
           <section id="intro" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
-                </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
-                <ul className="actions">
-                  <li><Link to="/generic" className="button">Learn More</Link></li>
-                </ul>
+                <p>I offer ... ? Or some sort of very short bio/intro of what the company is?</p>
               </div>
-              <span className="image"><img src={pic01} alt="" /></span>
+              <span className="image"><img src={headshot} alt="Headshot of Hollie Emery" /></span>
             </div>
           </section>
 
-          <section id="first" className="main special">
+          <section id="clients" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Clients</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <h3>Team17 Digital Ltd</h3>
+                <p>I worked at Team17 as a permanent employee for over six years. I spent the first three years working as a QA/Senior QA assistant before moving across into Production.</p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <h3>Studio 2</h3>
+                <p>Something about this studio?</p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <h3>Studio 3</h3>
+                <p>Something about this studio?</p>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
           </section>
 
-          <section id="second" className="main special">
+          <section id="about" className="main special">
             <header className="major">
-              <h2>Ipsum consequat</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
-            </header>
-            <ul className="statistics">
-              <li className="style1">
-                <span className="icon fa-code-fork"></span>
-                <strong>5,120</strong> Etiam
-              </li>
-              <li className="style2">
-                <span className="icon fa-folder-open-o"></span>
-                <strong>8,192</strong> Magna
-              </li>
-              <li className="style3">
-                <span className="icon fa-signal"></span>
-                <strong>2,048</strong> Tempus
-              </li>
-              <li className="style4">
-                <span className="icon fa-laptop"></span>
-                <strong>4,096</strong> Aliquam
-              </li>
-              <li className="style5">
-                <span className="icon fa-diamond"></span>
-                <strong>1,024</strong> Nullam
-              </li>
-            </ul>
-            <p className="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-            <footer className="major">
-              <ul className="actions">
-                <li><Link to="/generic" className="button">Learn More</Link></li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="cta" className="main special">
-            <header className="major">
-              <h2>Congue imperdiet</h2>
-              <p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-              posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+              <h2>About</h2>
+              <p>Some more information about the services offered and career. It can all be here or have another page to be viewed with this learn more button.</p>
             </header>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
                 <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>
